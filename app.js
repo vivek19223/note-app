@@ -56,7 +56,7 @@ yargs.command({
     }
 })
 
-//Remove command node
+//Remove command node. Handler code is going to call respective function.
 yargs.command({
     command: 'list',
     describe : 'List all note',
